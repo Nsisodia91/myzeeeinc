@@ -1,0 +1,21 @@
+{
+    "name": "narendra/zinc",
+    "description": "Class is used to call zinc REST API",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "narendra.sisodia",
+            "email": "Nsisodia91@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zinc\\": "src/Zinc/"
+        }
+    }
+}
